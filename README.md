@@ -2,11 +2,8 @@
 
 Este é um projeto de front-end para Visualizar dados de lançamentos da SpaceX. Ele utiliza uma variedade de tecnologias e bibliotecas para fornecer uma experiência incrível aos usuários.
 
-![GitHub](https://img.shields.io/github/license/Bran00/TestSpaceXFront)
-![GitHub last commit](https://img.shields.io/github/last-commit/Bran00/TestSpaceXFront)
-![GitHub issues](https://img.shields.io/github/issues-raw/Bran00/TestSpaceXFront)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Bran00/TestSpaceXFront)
-![GitHub contributors](https://img.shields.io/github/contributors/Bran00/TestSpaceXFront)
+# <a href="https://test-space-x-front.vercel.app">Acesse a versão online AQUI</a>
+
 
 ## Tecnologias Utilizadas
 
