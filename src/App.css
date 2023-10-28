@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Inter:wght@100;200;300;400;500;600;700;800;900');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Inter', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app h1 {
+  font-size: 3rem;
+  color: #333;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.app .PieandBar {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PieandResults {
+  background-color: hsl(211, 74%, 88%);
+  margin-bottom: 4rem;
+  padding: 2rem;
+  border-radius: .2rem;
+}
+
+.pie {
+  display: none;
+}
+
+.BarChart {
+  overflow-x: scroll;
+    width: 100%;
+    background-color: hsl(211,
+        74%,
+        88%);
+    margin-bottom: 2rem;
+}
+
+.BarChart div {
+  padding: 1rem;
+  width: 70rem;
+}
+
+@media (min-width: 600px) {
+  .BarChart {
+      width: min-content;
+      overflow-x: hidden;
+    }
+
+  .app {
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 1000px) {
+  .app .PieandBar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .PieandResults {
+    position: relative;
+    width: 40%;
+    padding: 4rem;
+  }
+
+  .LaunchesResults {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .BarChart {
+    width: min-content;
+    overflow-x: hidden;
+  }
+
+  .pie {
+    display: flex;
+    width: 100%;
+  }
+}
