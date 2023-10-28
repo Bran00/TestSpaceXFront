@@ -1,0 +1,121 @@
+.LaunchesList {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  background-color: hsl(211, 71%, 77%);
+  padding: 2rem 0;
+}
+
+.LaunchesList h1:nth-child(1) {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: hsl(0, 0%, 0%);
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  border-radius: 4px;
+  padding: 2rem;
+  margin: 1rem 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.launch-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.mission-status {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.mission-status p:nth-child(1) {
+  width: 8rem;
+  text-align: center;
+  color: white;
+  padding: .2rem .4rem;
+  border-radius: .2rem;
+}
+
+.mission-status a img {
+  margin: 0 !important;
+  transform: translateY(1rem);
+}
+
+img {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.green {
+  background-color: hsl(120, 78%, 42%);
+}
+
+.red {
+  background-color: hsl(0, 93%, 47%);
+}
+
+@media (min-width: 600px) {
+  ul {
+    width: 80%;
+  }
+}
