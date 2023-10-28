@@ -1,0 +1,23 @@
+.LaunchesresultsComponent {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.LaunchesresultsComponent p:nth-child(1) {
+  padding-bottom: .5rem;
+}
+
+.LaunchesresultsComponent p:nth-child(2) span {
+  color: hsl(123, 91%, 30%);
+  font-weight: 600;
+}
+
+.LaunchesresultsComponent p:nth-child(3) span {
+  color: hsl(0, 100%, 50%);
+  font-weight: 600;
+}
