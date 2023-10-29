@@ -55,7 +55,7 @@ export default function RocketLaunchesByYear(props) {
   const datasets = uniqueRocketNames.map((rocketName, index) => ({
     label: rocketName,
     data: years.map((year) => launchesByYear[year][rocketName] || 0),
-    backgroundColor: colors[index % colors.length], // Use as cores da paleta
+    backgroundColor: colors[index % colors.length],
   }))
 
   const chartData = {
@@ -91,7 +91,7 @@ export default function RocketLaunchesByYear(props) {
         display: false,
       },
       layout: {
-        padding: 0, // Remova as margens
+        padding: 0,
       },
     },
   }

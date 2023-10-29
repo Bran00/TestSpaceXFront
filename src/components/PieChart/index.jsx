@@ -32,7 +32,7 @@ export default function PieChart(props) {
     datasets: [
       {
         label: "Numero de lançamentos",
-        data: Object.values(launchesByRocket), // Número de lançamentos
+        data: Object.values(launchesByRocket), 
         backgroundColor: [
           "rgba(0, 0, 0, 0.877)",
           "rgba(233, 146, 32, 0.877)",
